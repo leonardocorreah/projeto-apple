@@ -54,11 +54,38 @@ main > h1 {
     font-weight: bold;
     color: var(--cor01);
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0px 30px 0px;
 }
 
 main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+div#container {
+    position: relative;
+}
+
+#content {
+    position: absolute;
+    max-width: 350px;
+    height: auto;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(100%, -230%);
+}
+
+#content > h1 {
+    font-family: "Apple01";
+    font-size: 25px;
+}
+
+#content > p {
+    font-family: "Apple01";
+    font-weight: bold;
+    font-size: 50px;
+
 }
