@@ -17,6 +17,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: white;
+}
+
 nav {
     background-color: var(--cor01);
     text-align: center;
