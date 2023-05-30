@@ -7,8 +7,9 @@
 
 :root {
     --cor01: #1D1D1F;
-    --cor02: #FFFFFF;
     --cor03: #d3d3d3;
+    --cor02: #FFFFFF;
+    --cor04: #CECECE;
     --blue: #0066CC;
 }
 
@@ -44,7 +45,8 @@ nav > a {
 }
 
 main {
-    max-width: 250vh;
+    background-color: white;
+    max-width: 100%;
 }
 
 main > h1 {
@@ -53,13 +55,14 @@ main > h1 {
     font-weight: bold;
     color: var(--cor01);
     text-align: center;
-    padding: 50px 0px 30px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 main img {
     display: block;
     margin-left: auto;
     margin-right: 800px;
+    padding-bottom: 50px;
 }
 
 div#container {
@@ -73,7 +76,7 @@ div#container {
     left: 35%;
     top: 90%;
 
-    transform: translate(80%, -200%);
+    transform: translate(80%, -230%);
 }
 
 #content > h1 {
@@ -90,4 +93,33 @@ div#container {
     font-size: max(32px, 5vw);
     color: var(--cor01);
 
+}
+
+section {
+    max-width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+section h1 {
+    font-family: "Apple01";
+    font-size: 4em;
+    text-align: center;
+    padding: 30px;
+    color: var(--cor04);
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+section h2 {
+    font-family: "Apple01";
+    font-size: 2.6em;
+    text-align: center;
+    padding: 20px;
+    color: var(--cor04);
 }
