@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Apple01";
+    src: url(../fontes/SFProDisplay-Regular.ttf);
+}
+
+:root {
+    --cor01: #1D1D1F;
+    --cor02: #FFFFFF;
+    --cor03: #d3d3d3;
+    --blue: #0066CC;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: var(--cor01);
+    text-align: center;
+    font-family: "Apple01";
+    font-size: 14px;
+    padding: 5.5px 0px 7.5px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav img {
+    margin-top: auto;
+    max-width: 100%;
+}
+
+nav > a {
+    color: var(--cor03);
+    text-decoration: none;
+    max-width: 100%;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+main {
+    background-color: black;
+    color: var(--cor03);
+    max-width: 1000vh;
+}
