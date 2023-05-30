@@ -41,7 +41,20 @@ nav > a {
 }
 
 main {
-    background-color: black;
-    color: var(--cor03);
     max-width: 1000vh;
+}
+
+main > h1 {
+    font-family: "Apple01";
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--cor01);
+    text-align: center;
+    padding-top: 50px;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
