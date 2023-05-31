@@ -103,9 +103,17 @@ section {
 
 section h1 {
     font-family: "Apple01";
-    font-size: 4em;
+    font-size: max(6.5vw - 1em, 3rem);
     text-align: center;
     padding: 30px;
+    color: var(--cor04);
+}
+
+section h2 {
+    font-family: "Apple01";
+    font-size: max(3.5vw - 1em, 2rem);;
+    text-align: center;
+    padding: 20px;
     color: var(--cor04);
 }
 
@@ -113,13 +121,108 @@ section img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 0px;
     width: 75%;
 }
 
-section h2 {
+
+aside {
+    background-color: #161617 ;
+    padding: 50px;  
+    height: 1800px;
+    max-width: 100%;
+}
+
+aside h1 {
     font-family: "Apple01";
-    font-size: 2.6em;
+    font-size: 2em;
     text-align: center;
-    padding: 20px;
-    color: var(--cor04);
+    color: #CECECE;
+}
+
+aside h2 {
+    font-family: "Apple01";
+    font-size: 1em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: #CECECE;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Apple01";
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #0066CC;
+    color: #d3d3d3;
+    border: none;
+    width: 80px;
+    padding: 7px;
+    border-radius: 40px;
+}
+
+div.container0 {
+    background-color: #161617;
+    padding-top: 60px;
+    max-width: 100%;
+}
+
+div.content0 {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: auto;
+    width: min(700px, 125vw - 45vw);
+}
+
+.content0 h1 {
+    color: #DB81FF;
+    font-family: "Apple01";
+    font-size: max(30px, 4vw - 1em);
+    font-weight: 600;
+    text-align: center;
+    padding: 30px;
+}
+
+.content0 img {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    width: 68%;
+}
+
+div#container1 {
+    background-color: #161617;
+    border-radius: 10px 10px 0px 10px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+div#content1 {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: auto;
+    width: min(700px, 125vw - 45vw);
+}
+
+div#content1 h1 {
+    color: #DB81FF;
+    font-family: "Apple01";
+    font-size: max(30px, 4vw - 1em);
+    font-weight: 600;
+    padding: 30px;
+}
+
+div#content1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
 }
