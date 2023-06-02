@@ -101,20 +101,20 @@ section img {
 aside {
     background-color: #161617 ;
     padding: 50px;  
-    height: 1800px;
+    height: auto;
     max-width: 100%;
 }
 
 aside h1 {
     font-family: "Apple01";
-    font-size: 2em;
+    font-size: 4vw;
     text-align: center;
     color: #CECECE;
 }
 
 aside h2 {
     font-family: "Apple01";
-    font-size: 1em;
+    font-size: 2.8vw;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 30px;
@@ -172,6 +172,8 @@ div#container1 {
     border-radius: 10px 10px 0px 10px;
     width: 100%;
     margin-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 div#content1 {
@@ -197,4 +199,23 @@ div#content1 img {
     margin-left: auto;
     margin-right: auto;
     width: 69%;
+}
+
+article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    max-width: 70%;
+    max-height: 100vh;
+    border-radius: 5px;
+    background-color: black;
+}
+
+article > video {
+    border-radius: 5px;
+    max-width: 100%;
+    max-width: 100%;
+    padding-top: 30px;
+
 }
